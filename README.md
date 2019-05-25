@@ -1,2 +1,2 @@
 # app_format_files
-Format files for various miscellaneous programs/applications.
+Format files for miscellaneous programs/applications.
