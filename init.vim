@@ -1,8 +1,10 @@
 " --- text editor settings ---
 syntax enable
-let g:solarized_termcolor=256
+""let g:solarized_termcolor=256
+set termguicolors
 set background=dark
 colorscheme solarized	
+set autoread
 set splitbelow
 set splitright
 set ruler
@@ -36,8 +38,8 @@ set foldlevel=99
 
 "" Libraries
 call plug#begin()
-Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer'}
 Plug 'tmhedberg/SimpylFold'
+Plug 'neoclide/coc.nvim'
 Plug 'sbdchd/neoformat'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'flowtype/vim-flow'
